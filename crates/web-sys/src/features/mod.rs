@@ -12017,6 +12017,62 @@ mod gen_XrWebGlLayerInit;
 #[allow(unused_imports)]
 pub use gen_XrWebGlLayerInit::*;
 
+#[cfg(feature = "XrgpuBinding")]
+#[allow(non_snake_case)]
+mod gen_XrgpuBinding;
+#[cfg(feature = "XrgpuBinding")]
+#[allow(unused_imports)]
+pub use gen_XrgpuBinding::*;
+
+#[cfg(feature = "XrgpuCubeLayerInit")]
+#[allow(non_snake_case)]
+mod gen_XrgpuCubeLayerInit;
+#[cfg(feature = "XrgpuCubeLayerInit")]
+#[allow(unused_imports)]
+pub use gen_XrgpuCubeLayerInit::*;
+
+#[cfg(feature = "XrgpuCylinderLayerInit")]
+#[allow(non_snake_case)]
+mod gen_XrgpuCylinderLayerInit;
+#[cfg(feature = "XrgpuCylinderLayerInit")]
+#[allow(unused_imports)]
+pub use gen_XrgpuCylinderLayerInit::*;
+
+#[cfg(feature = "XrgpuEquirectLayerInit")]
+#[allow(non_snake_case)]
+mod gen_XrgpuEquirectLayerInit;
+#[cfg(feature = "XrgpuEquirectLayerInit")]
+#[allow(unused_imports)]
+pub use gen_XrgpuEquirectLayerInit::*;
+
+#[cfg(feature = "XrgpuLayerInit")]
+#[allow(non_snake_case)]
+mod gen_XrgpuLayerInit;
+#[cfg(feature = "XrgpuLayerInit")]
+#[allow(unused_imports)]
+pub use gen_XrgpuLayerInit::*;
+
+#[cfg(feature = "XrgpuProjectionLayerInit")]
+#[allow(non_snake_case)]
+mod gen_XrgpuProjectionLayerInit;
+#[cfg(feature = "XrgpuProjectionLayerInit")]
+#[allow(unused_imports)]
+pub use gen_XrgpuProjectionLayerInit::*;
+
+#[cfg(feature = "XrgpuQuadLayerInit")]
+#[allow(non_snake_case)]
+mod gen_XrgpuQuadLayerInit;
+#[cfg(feature = "XrgpuQuadLayerInit")]
+#[allow(unused_imports)]
+pub use gen_XrgpuQuadLayerInit::*;
+
+#[cfg(feature = "XrgpuSubImage")]
+#[allow(non_snake_case)]
+mod gen_XrgpuSubImage;
+#[cfg(feature = "XrgpuSubImage")]
+#[allow(unused_imports)]
+pub use gen_XrgpuSubImage::*;
+
 #[cfg(feature = "XsltProcessor")]
 #[allow(non_snake_case)]
 mod gen_XsltProcessor;
